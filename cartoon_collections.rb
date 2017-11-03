@@ -25,4 +25,5 @@ def find_the_cheese(foodList)# code an argument here
   cheese_types.each_with_index |cheese, index|
       foodList.include?(cheese)
   end
+  
 end
