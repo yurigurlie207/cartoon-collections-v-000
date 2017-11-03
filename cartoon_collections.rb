@@ -22,9 +22,9 @@ def find_the_cheese(foodList)# code an argument here
   # the array below is here to help
   cheese_types = ["cheddar", "gouda", "camembert"]
 
-  foodList.each do |food, index|
+  foodList.each_with_index { |food, index|
     cheese_types.detect { |cheese|
       foodList[index] == cheese
     }
-  end
+  }
 end
