@@ -21,9 +21,9 @@ end
 def find_the_cheese(foodList)# code an argument here
   # the array below is here to help
   cheese_types = ["cheddar", "gouda", "camembert"]
-
+  matched = nil
   cheese_types.each_with_index { |cheese, index|
-      foodList.include?(cheese)
+        if foodList.include?(cheese) then matched = cheese
   }
 
 end
