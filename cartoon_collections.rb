@@ -23,7 +23,8 @@ def find_the_cheese(list)# code an argument here
   cheese_types = ["cheddar", "gouda", "camembert"]
   i=0
   cheese_types.detect {
-    |cheese| i 
+    |cheese| 
+    list[i] == cheese
   }
 
 end
