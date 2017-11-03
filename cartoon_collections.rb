@@ -7,7 +7,9 @@ end
 
 def summon_captain_planet(elements)# code an argument here
   # Your code here
-  fullList = 
+  fullList = elements.collect { |element
+
+  }
 
 end
 
