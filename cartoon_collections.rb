@@ -22,8 +22,8 @@ def find_the_cheese(list)# code an argument here
   # the array below is here to help
   cheese_types = ["cheddar", "gouda", "camembert"]
 
-  cheese_type.each do { |cheese|
-    
-  }
+  cheese_type.each do |cheese|
+
+  end
 
 end
