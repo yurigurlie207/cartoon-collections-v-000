@@ -24,7 +24,7 @@ def find_the_cheese(foodList)# code an argument here
   i=0
   cheese_types.detect {
     |cheese|
-    list[i] == cheese
+    foodList[i] == cheese
     i =+
   }
 
