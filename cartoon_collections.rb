@@ -22,8 +22,6 @@ def find_the_cheese(foodList)# code an argument here
   # the array below is here to help
   cheese_types = ["cheddar", "gouda", "camembert"]
 
-  i = 0
-
   foodList.each do |food, index|
     cheese_types.detect { |cheese|
       foodList[index] == cheese
