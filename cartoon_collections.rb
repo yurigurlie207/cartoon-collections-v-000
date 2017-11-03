@@ -15,6 +15,7 @@ end
 
 def long_planeteer_calls(assorted_words)# code an argument here
   # Your code here
+  assorted_words.any? {|word| word.length > 4}
 end
 
 def find_the_cheese# code an argument here
