@@ -26,7 +26,7 @@ def find_the_cheese(foodList)# code an argument here
 
   foodList.each do |food, index|
     cheese_types.detect { |cheese|
-      foodList[i] == cheese
+      foodList[index] == cheese
     }
   }
 end
