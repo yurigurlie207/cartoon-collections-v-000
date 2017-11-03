@@ -18,7 +18,7 @@ def long_planeteer_calls(assorted_words)# code an argument here
   assorted_words.any? {|word| word.length > 4}
 end
 
-def find_the_cheese(list)# code an argument here
+def find_the_cheese(foodList)# code an argument here
   # the array below is here to help
   cheese_types = ["cheddar", "gouda", "camembert"]
   i=0
